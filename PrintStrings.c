@@ -5,6 +5,10 @@
 #include <unistd.h>
 
 
+/*
+Печатает строки в соответствии с ключами -t (вывод на консоль) и -n (нумеровать)
+*/
+
 extern struct Keys keys;
 
 void PrintStrings (char **strings, int fd)
