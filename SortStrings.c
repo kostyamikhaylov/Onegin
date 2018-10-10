@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+Сортирует строки быстрой сортировкой в соответствии с ключами -r и -e
+*/
+
 extern struct Keys keys;
 
 int StrCompare (const void *string1, const void *string2);
