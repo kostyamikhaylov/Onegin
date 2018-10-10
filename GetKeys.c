@@ -10,8 +10,12 @@ typedef struct Keys
 	int reverse_order;		// -r
 	int from_the_end;		// -e
 	int std_output;			// -t
-	int help;				// -h
+	int help;			// -h
 };
+
+GeKeys принимает аргументы командной строки из мэйна и считывает ключи
+(только те, которые идут сразу после названия программы, до текстовых файлов)
+За что отвечают ключи написано в Onegin.h
 */
 
 extern struct Keys keys;
